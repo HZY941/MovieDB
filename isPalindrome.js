@@ -8,4 +8,10 @@
 const str = "This is not";
 const str_2 = "hannah";
 
-const isPalindrome = () => {};
+// solution 1 - reverse the string and check if it matches the original string
+const isPalindrome = (str) => {
+  return str === [...str].reverse().join("");
+};
+
+console.log(`'${str}' : ${isPalindrome(str)}`);
+console.log(`'${str_2}' : ${isPalindrome(str_2)}`);
