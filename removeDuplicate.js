@@ -1,6 +1,7 @@
 /**
  * Remove duplicate items in given array.
  *
+ * @date 05/31/2022
  * @input array with duplicate items within.
  * @output array with only unique items.
  */
