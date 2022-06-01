@@ -1,6 +1,7 @@
 /**
  * Flatten nested array items.
  *
+ * @date 05/31/2022
  * @input nested array of elements.
  * @output flattened array.
  */
