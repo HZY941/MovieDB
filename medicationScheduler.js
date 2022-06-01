@@ -1,6 +1,7 @@
 /**
  * Medication Scheduler, use given meds and timing to create a message for all meds taken in the day.
  * 
+ * @date 06/01/2022
  * @input array of meds object containing med type and time taken during day, as well as the period of the medication.
  * @output meds schedule on the given date, sorted in ascending time order.
  * Sample output:
