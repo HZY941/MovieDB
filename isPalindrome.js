@@ -1,7 +1,7 @@
 /**
  * Check if a given input string is palindrome or not.
  *
- * @date 05/31/2022
+ * @date 05/30/2022
  * @input input string.
  * @output booolean value that check if the string is palindrome or not.
  */
