@@ -1,9 +1,11 @@
 /**
  * Java Script Interview Questions ----------------
  *
- * Some object / function assignment
- * This keyword
- * Hoisting
+ * @date 05/31/2022
+ * @topics
+ *  Some object / function assignment
+ *  This keyword
+ *  Hoisting
  */
 
 // ----------------
