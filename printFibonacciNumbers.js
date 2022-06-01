@@ -1,6 +1,7 @@
 /**
  * Print first n number of fibonacci numbers.
  *
+ * @date 05/30/2022
  * @input number of fibonacci numbers to ebe printed.
  * @output array of fibonacci numbers.
  */
