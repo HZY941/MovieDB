@@ -1,3 +1,14 @@
+/**
+ * Movie Database web application that uses open sourced MovieDB APIs.
+ *
+ * @date 04/2022
+ * @requirements:
+ * Single Page Application
+ * React Hooks
+ * React Redux
+ * Work with MovieDB backend API for logins and data fetching
+ */
+
 import React from "react";
 import "./style.css";
 import { Routes, Route } from "react-router-dom";
