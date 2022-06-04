@@ -8,3 +8,6 @@ Algo. Data Structure Progress
 	#142(M) - Linked List Cycle II
 	#92(M) - Reverse Linked List II
 	#138(M) - Copy List with Random Pointer
+
+2 - Stack
+	#20(E) - Valid Parentheses
