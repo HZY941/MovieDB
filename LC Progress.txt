@@ -1,0 +1,9 @@
+Algo. Data Structure Progress
+
+1 - Linked List
+	#206(E) - Reverse Linked List
+	#106(E) - Intersection of Two Linked List
+	#21(E) - Merge Two Sorted Lists
+	#86(M) - Partition List
+	#142(M) - Linked List Cycle II
+	#92(M) - Reverse Linked List II
