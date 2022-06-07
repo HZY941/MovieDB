@@ -1,0 +1,135 @@
+Amazon CSS Prep Guide:
+
+	CSS Interview Questions (7 Questions)
+
+		Q1 - What pushed you to choose between flexbox / box / grid? Advantage / disadvantage.
+
+			Box model / Flexbox / Grid
+
+			Flexbox is 1D vs grid is 2D. Depending on the requirement of the layout, you might choose one over the other.
+
+			Does the flow of the content matter? --> Flexbox
+			Does the contnet placement matter? --> Grid
+			Are you working with legacy code using Box model?
+
+		Q2 - How does CSS works?
+
+			Cascading Style Sheets, it uses three ways to style the HTML document:
+
+				inline style / internal stylesheet / external stylesheet
+
+				<link rel='stylesheet' href='xxx.css'>
+
+				The CSS file is used to style the web page, we use CSS selectors to create rules for those elements. When CSS renders, it will take the CSS, and apply it to the document from the top to the bottom.
+
+				If there are repeated rules, the newest one will overwrite the previous rules. Inline styles have highest importance will overwrite CSS written in the stylesheet.
+
+		Q3 - CSS pseudo-elements and pseudo-classes, what is the diff, and what are they used for?
+
+			The similiarity between them is that they both take keywords that lets you style the selector in a specific way, but at the core they are different concepts.
+
+			Pseudo-elements are added to a selector when you want to style a specific part of the selected element:
+
+				p::selection{ color: red; }  // --> double ::
+
+			Pseudo-class is added to a selector when you want to control the styling when an element is in a particular state.
+
+				button:hover { color: red; }  // --> single :
+
+			In all, pseudo-element styles specific >>>PARTS<<< of an element and the pseudo-class styles a specific >>>STATE<<< of an element.
+
+		Q4 - Concept of specificity
+
+			Each type of selector has a number associated with it, the higher the number, the higher the specificity. Inline styleing has the highest specificity, along with ids. Universal selectors have the lowest specificity.
+
+			When a specificity is higher, that means those styling rules will win over any sort of casecading rules.
+
+		Q5 - What does a preprocessor do and why would it be advantageous to use one?
+
+			SASS / LESS allows you to do number of things: (mostly enrich the functionality of the plain CSS)
+
+				Assign variables, create mixins, and use nested rules.
+
+				It simplify the coding and allows your CSS to be nested.
+
+				To be sed it needs to be compiled into a single CSS file that is then linked to the HTML document.
+
+			Preprocessor will cut down on the code reuse, assigns color schemes to variables, and prevent unintended behavior because your code is more dynamic due to the use of variables.
+
+		Q6 - CSS BOX model and its consistituent elements.
+
+			BOX model:
+
+				Margin -> Padding -> Border -> Content
+
+			By default box-sizing is content-box.
+
+		Q7 - How would you select every paragraph with a class name of about-me that is a child of a div?
+
+			div > .about-me { color: red; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
