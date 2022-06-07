@@ -1,0 +1,142 @@
+Amazon JS Prep Guide:
+
+	JS Interview Questions (10 Questions)
+
+		Q1 - Method overloading in JS
+
+			Method overloading means the ability to create multiple functions of the same name with different implementations.
+
+			We can achieve this by using if statement or switch case to execute function differently based on the parameter.
+
+				function greet(param){
+					if(typeof param === 'string'){ ... }
+					else { ... }
+				}
+
+
+		Q2 - Check the type of an Array
+
+			Ways to check if an element is array
+
+				Object.prototype.toString.call(item) === '[object Array]'
+
+				Array.isArray(item)
+
+
+		Q3 - Check if a number is an integer
+
+			In JS there is no integer type, all numbers are type of number. We can use Number.parseInt(), we can also check by mod the target number by 1 to see if it equal to 0.
+
+				num % 1 === 0;
+
+				num === Number.parseInt(num);
+
+
+		Q4 - Private variable
+
+			In JS we can make variable by placing the variables inside function body, encapsulate the variable scope.
+
+				function f() {
+					let privateVar = 'xxx';
+				}
+
+				console.log(privateVar); // it's undefined in global scope
+
+
+				function f2() {
+					let privateVar = 'xxx';
+					return function() {
+						return privateVar;
+					}
+				}
+				let getPrivate = f2();
+				console.log(getPrivate());  // will get you the private variable
+
+
+		Q5 - Find vowels
+
+			We can count the vowels by using array or set.
+
+			// use array includes()
+			// or use set has()
+			const findVowels = (str) => {
+				let count = 0;
+				const vowels = ['a', 'e', 'i', 'o', 'u'];
+				
+				for(let ch of str.toLowerCase()){
+					if(vowels.includes(ch)){
+						count++;
+					}
+				}
+				return count;
+			}
+
+
+		Q6 - Function inside if condition statement
+
+			var y = 1;
+			if(function f() {}){
+				y += typeof f;
+			}
+			console.log(y); // output: 1undefined
+
+			In this case, if uses eval on the condition check, function f() {} is true since the code executes, but the typeof f returns undefined because the statement code execute at the run time.
+
+
+		Q7 - Empty an array in JS
+
+			Since array is reference typed, reassign the reference of the array will not change to other variables pointed to the original array, we can handle this by force the length to 0.
+
+				// issue: doesn't change other reference variable value
+				var array = [xxxx];
+				var other = array;
+				array = [];
+				console.log(other); // still has old value
+
+				// fix: by set the og array length to 0
+				var array = [xxxx];
+				var other = array;
+				array.length = 0;
+				console.log(other); // [], empty
+
+
+		Q8 - Closure test
+
+			// requirement:
+			var addSix = createBase(6);
+			addSix(10); // return 16
+			addSix(21); // return 27;
+
+			// solution:
+			function createBase(baseNumber){
+				return function(N){
+					return baseNumber + N;
+				}
+			}
+
+			var addSix = createBase(6);
+			addSix(10); // return 16
+			addSix(21); // return 27;
+
+			In here, addSix is a function that takes in input number and add based to it.
+
+
+		Q9 - fizzbuzz
+
+			use if statement along with % on the length of the words.
+
+
+		Q10 - Preserve immutablility of objects
+
+			Creating copy of object that doesn't affect the original one (deep copy).
+
+			Two ways:
+
+				Object.assign():
+
+					Object.assign({}, orignal, { original.content });
+
+				spread operator:
+
+					copy = [...original];
+
