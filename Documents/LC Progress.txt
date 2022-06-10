@@ -11,3 +11,8 @@ Algo. Data Structure Progress
 
 2 - Stack
 	#20(E) - Valid Parentheses
+	#155(E) - Min Stack
+	#946(M) - Validate Stack Sequences
+	#739(M) - Daily Temperatures (Incomplete)
+	#224(H) - Basic Calculator (Incomplete)
+	#42(H) - Trapping Rain Water (Incomplete)
