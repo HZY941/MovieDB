@@ -1,5 +1,60 @@
 Algo. Data Structure Progress
 
+Most Interviewed Questions
+
+	Done:
+		1 - #1(E) - Two Sum
+		2 - #13(E) - Roman to Integer
+
+	--- Splitting Line ---
+	
+	Queued:
+		3 - #146(M) - LRU Cache
+		4 - #56(M) - Merge Intervals
+		5 - #200(M) - Number of Islands
+		6 - #1249(M) - Minimum Remove to Make Valid Parentheses
+		7 - #4(H) - Median of Two Sorted Arrays
+		8 - #20(E) - Valid Parentheses
+		9 - #42(H) - Trapping Water
+		10 - #68(H) - Text Justification
+		11 - #68(E) - Best Time to Buy and Sell Stock
+		12 - #680(E) - Valid Palindrome II
+		13 - #2(M) - Add Two Numbers
+		14 - #53(E) - Maximum Subarray
+		15 - #314(M) - Binary Tree Vertical Order Traversal <...Locked...>
+		16 - #528(M) - Random Pick with Weight
+		17 - #811(M) - Subdomain Visit Count
+		18 - #1650(M) - Lowest Common Ancestor of a Binary Tree <...Locked...>
+		19 - #71(M) - Simplify Path
+		20 - #339(M) - Nested List Weight Sum <...Locked...>
+		21 - #423(M) - Reconstruct Original Digits from English
+		22 - #380(M) - Insert Delete GetRandom O(1)
+		23 - #227(M) - Basic Calculator II
+		24 - #560(M) - Subarray Sum Equals K
+		25 - #3(M) - Longest Substring Without Repeating Character
+		26 - #253(M) - Meeting Rooms II <...Locked...>
+		27 - #588(H) - Design In Memory File System <...Locked...>
+		28 - #5(M) - Longest Palindromic Substring
+		29 - #1762(M) - Building with Ocean view <...Locked...>
+		30 - #30(E) - Fizz Buzz
+		31 - #1570(M) - Dot Product of Two Sparse Vectors <...Locked...>
+		32 - #14(E) - Longest Common Prefix
+		33 - #394(M) - Decode Substring
+		34 - #15(M) - 3 Sum
+		35 - #31(M) - Next Premutation
+		36 - #408(E) - Valid WOrd Abbreviation <...Locked...>
+		37 - #236(M) - Lowest Common Ancestor of a Binary Tree
+		38 - #215(M) - Kth Largest Element in an Arrays
+		39 - #1396(M) - Design Underground System
+		40 - #79(M) - Word Search
+		41 - #22(M) - Generate Parentheses 
+		42 - #815(H) - Bus Routes
+		42 - # 828(H) - Count Unique Characters of All Substrings
+
+
+
+By Category: (done)
+
 1 - Linked List
 	#206(E) - Reverse Linked List
 	#106(E) - Intersection of Two Linked List
