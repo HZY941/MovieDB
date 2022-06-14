@@ -49,7 +49,50 @@ Most Interviewed Questions
 		40 - #79(M) - Word Search
 		41 - #22(M) - Generate Parentheses 
 		42 - #815(H) - Bus Routes
-		42 - # 828(H) - Count Unique Characters of All Substrings
+		42 - #828(H) - Count Unique Characters of All Substrings
+		43 - #23(H) - Merge K Sorted Lists
+		44 - #273(H) - Integer to English Words
+		45 - #17(M) - Letter Combinations of a Phone Number
+		46 - #50(M) - Pow(x, n)
+		47 - #49(M) - Group Anagram
+		48 - #443(M) - String Compression
+		49 - 1010(M) - Pairs of Songs With Total Duration Divisible by 60
+		50 - #41(H) - First Missing Positive
+		51 - #127(H) - Word Ladder
+		52 - #9(E) - Palindrome Number
+		53 - #134(M) - Gas Station
+		54 - #923(M) - 3 Sum with Multiplicity
+		55 - #11(M) - Container with Most Water
+		56 - #973(M)  - K Closest Points to Original
+		57 - #1041(M) - Robot Bounded in Circle
+		58 - #54(M) - Spiral Matrix
+		59 - #347(M) - Top K Frequent Elements
+		60 - #244(M) - Shortest Word Distance II <...Locked...>
+		61 - #704(E) - Binary Search
+		62 - #921(M) - Minimum Add to Make Parentheses Valid
+		63 - #1091(M) - Shortest Path in Binary Matrix
+		64 - #1293(H) - Shortest Path in a Grid with Obstacles
+		65 - #1209(M) - Remove All Adjacent Duplicates in Sting
+		66 - #212(H) - Word Search II
+		67 - #33(M) - Search in Rotated Sorted Arrays
+		68 - #1268(M) - Search Suggestion System
+		69 - #2104(M) - Sum of Subarray Ranges
+		70 - #289(M) - Game of Life
+		71 - #1604(M) - Alert Using Same Key-Card Three Order...
+		72 - #366(M) - Find Leaves of Binary Tree <...Locked...>
+		73 - #10(H) - Regular Expression Matching
+		74 - #1152(M) - Analyze User Website Visit Pattern <...Locked...>
+		75 - #7(M) - Reversed Integer
+		76 - #138(M) - Copy LIst with Random Pointer
+		77 - #426(M) - Convert Binary Search Tree to Store... <...Locked...>
+		78 - #48(M) - Rotate Image
+		79 - #938(E) - Range Sum of Best
+		80 - #362(M) - Design Hit Counter <...Locked...>
+		81 - #269(H) - Alien Dictionary <...Locked...>
+		82 - #364(M) - Nested List Weight Sum II <...Locked...>
+		83 - #716(E) - Max Stack <...Locked...>
+		84 - #1326(H) - Minimum Number of Taps to Open to...
+		85 - #735(M) - Asteroid Collision
 
 
 
