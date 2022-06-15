@@ -93,8 +93,20 @@ Most Interviewed Questions
 		83 - #716(E) - Max Stack <...Locked...>
 		84 - #1326(H) - Minimum Number of Taps to Open to...
 		85 - #735(M) - Asteroid Collision
-
-
+		86 - #224(H) - Basic Calculator
+		87 - #987(H) - Vertical Order Traversal of Binary Tree
+		88 - #162(M) - Find Peak Element
+		89 - #217(E) - Contains Duplicate
+		90 - #239(H) - Sliding Window Maximum
+		91 - #937(E) - Reorder Data in Log Files
+		92 - #322(M) - Coin Change
+		93 - #1207(E) - Unique Number of Occurrences
+		94 - #399(M) - Evaluate Division
+		95 - #234(E) - Palindrome Linked List
+		96 - #591(H) - Tag Validator
+		97 - #346(E) - Moving Average from Data Stream <...Locked...>
+		98 - #799(M) - Champagne Tower
+		99 - #21(E) - Merge Two Sorted List
 
 By Category: (done)
 
