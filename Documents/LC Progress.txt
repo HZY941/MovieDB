@@ -7,18 +7,19 @@ Most Interviewed Questions
 		2 - #13(E) - Roman to Integer
 		4 - #56(M) - Merge Intervals
 		5 - #200(M) - Number of Islands
+		8 - #20(E) - Valid Parentheses
+		11 - #121(E) - Best Time to Buy and Sell Stock
+		12 - #680(E) - Valid Palindrome II
+
+		6 - #1249(M) - Minimum Remove to Make Valid Parentheses
 
 	--- Splitting Line ---
 	
 	Queued:
 		3 - #146(M) - LRU Cache
-		6 - #1249(M) - Minimum Remove to Make Valid Parentheses
 		7 - #4(H) - Median of Two Sorted Arrays
-		8 - #20(E) - Valid Parentheses
 		9 - #42(H) - Trapping Water
 		10 - #68(H) - Text Justification
-		11 - #68(E) - Best Time to Buy and Sell Stock
-		12 - #680(E) - Valid Palindrome II
 		13 - #2(M) - Add Two Numbers
 		14 - #53(E) - Maximum Subarray
 		15 - #314(M) - Binary Tree Vertical Order Traversal <...Locked...>
